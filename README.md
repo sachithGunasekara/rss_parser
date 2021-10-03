@@ -5,10 +5,11 @@ A sample program which consumes RSS feed and stores in a database
 1. clone the project
 2. go to rss_parser
 3. run mvn clean install
-4. run mvn spring-boot:run
+4. run mvn spring-boot:run or java -jar target/rss-parser-0.0.1-SNAPSHOT.jar
 
 # Endpoints
 *Default application will run on port 8080, If you want to run it on different port pass -Dserver.port='your_preffered_port'.
+eg:- java -Dserver.port='your_port' -jar target/rss-parser-0.0.1-SNAPSHOT.jar
 
 1. http://localhost:8080/items
 
