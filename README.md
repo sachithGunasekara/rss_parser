@@ -3,7 +3,7 @@ A sample program which consumes RSS feed and stores in a database
 
 # How to run
 1. clone the project
-2. go to project root directory
+2. go to rss_parser
 3. run mvn clean install
 4. run mvn spring-boot:run
 
@@ -12,7 +12,7 @@ A sample program which consumes RSS feed and stores in a database
 
 1. http://localhost:8080/items
 
-or you can pass parameter for pagination and sorting as below
+or you can pass parameters for pagination and sorting as below
 
 2. http://localhost:8080/items?page=1&sort=pubDate&direction=desc&size=5
 
@@ -25,5 +25,10 @@ direction[optional] [default=desc]
 
 size[optional] [default=10]
 
+# Database
+
+username:- rss_admin
+password:- admin
+h2-console:- http://localhost:8080/h2-console/
 
 
