@@ -28,7 +28,9 @@ size[optional] [default=10]
 # Database
 
 username:- rss_admin
+
 password:- admin
+
 h2-console:- http://localhost:8080/h2-console/
 
 
